@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\hoa-nx\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\hoa-nx\\.nuget\\packages"
+    ]
+  }
+}
