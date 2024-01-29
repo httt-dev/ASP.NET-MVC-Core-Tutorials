@@ -33,13 +33,20 @@ namespace MiddlewarePipeline
                 {
                     await context.Response.WriteAsync((string)dataFromFirstMiddleware);
                 }
-                await context.Response.WriteAsync("Ban khong duoc truy cap");
+                await context.Response.WriteAsync("Ban khong duoc truy cap");  // khong goi middleware tiep theo
                 // neu thiet lap header sau khi write du lieu thi se bi error =< can chinh sua ca FirstMiddleware
                 // context.Response.Headers.Add("SecondMiddleware", "Ban khong duoc truy cap"); 
             }
             else
             {
                 context.Response.Headers.Add("SecondMiddleware", "Ban duoc truy cap");
+
+                var dataFromFirstMiddleware = context.Items["DataFirstMiddleware"];
+                if(dataFromFirstMiddleware != null)
+                {
+                    await context.Response.WriteAsync((string)dataFromFirstMiddleware);
+                }
+
                 await next(context);
             }
         }

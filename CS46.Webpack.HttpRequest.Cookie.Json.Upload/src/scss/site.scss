@@ -1,0 +1,9 @@
+﻿//Gộp Bootstrap
+// Có thể thiết lập các biến biến như màu $warning ...
+//@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+$mausac : rgb(156,99,99);
+
+.myclass{
+    color : $mausac;
+}

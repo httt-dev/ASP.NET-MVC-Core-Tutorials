@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS44.Asp.netIntroduction", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS45.MiddlewarePipeline", "MiddlewarePipeline\MiddlewarePipeline\CS45.MiddlewarePipeline.csproj", "{7DF62413-DF24-4E31-B018-A6AC6AE8EF0D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS46.Webpack.Request.Cookie.Json.Upload", "CS46.Webpack.HttpRequest.Cookie.Json.Upload\CS46.Webpack.Request.Cookie.Json.Upload.csproj", "{5E5E57B5-03B0-491E-A7B6-13E4BB942975}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7DF62413-DF24-4E31-B018-A6AC6AE8EF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DF62413-DF24-4E31-B018-A6AC6AE8EF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DF62413-DF24-4E31-B018-A6AC6AE8EF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E5E57B5-03B0-491E-A7B6-13E4BB942975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E5E57B5-03B0-491E-A7B6-13E4BB942975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E5E57B5-03B0-491E-A7B6-13E4BB942975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E5E57B5-03B0-491E-A7B6-13E4BB942975}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -23,7 +23,7 @@ namespace MiddlewarePipeline
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            // PIPELINE : Static - First - Second - EndPoints Middleware - Terminal
+            // PIPELINE : Static - First - Second - EndPoints Middleware (enpoint 1 / endpoint2) - Terminal middleware
 
             app.UseStaticFiles(); // sau khi xu ly middleware nay thi se ket thuc luon
 
@@ -91,6 +91,7 @@ namespace MiddlewarePipeline
             //        await context.Response.WriteAsync("Hello World!");
             //    });
             //});
+
         }
     }
 }
